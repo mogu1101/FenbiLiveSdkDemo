@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABDBD5A7265E57520009FD17 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDBD5A6265E57520009FD17 /* AppDelegate.m */; };
+		ABDBD5AA265E57520009FD17 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDBD5A9265E57520009FD17 /* SceneDelegate.m */; };
+		ABDBD5AD265E57520009FD17 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDBD5AC265E57520009FD17 /* ViewController.m */; };
+		ABDBD5B0265E57520009FD17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABDBD5AE265E57520009FD17 /* Main.storyboard */; };
+		ABDBD5B2265E57540009FD17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABDBD5B1265E57540009FD17 /* Assets.xcassets */; };
+		ABDBD5B5265E57540009FD17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABDBD5B3265E57540009FD17 /* LaunchScreen.storyboard */; };
+		ABDBD5B8265E57540009FD17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDBD5B7265E57540009FD17 /* main.m */; };
+		ABDBD5C2265E57540009FD17 /* FenbiLiveSdkDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDBD5C1265E57540009FD17 /* FenbiLiveSdkDemoTests.m */; };
+		ABDBD5CD265E57540009FD17 /* FenbiLiveSdkDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDBD5CC265E57540009FD17 /* FenbiLiveSdkDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABDBD5BE265E57540009FD17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABDBD59A265E57520009FD17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABDBD5A1265E57520009FD17;
+			remoteInfo = FenbiLiveSdkDemo;
+		};
+		ABDBD5C9265E57540009FD17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABDBD59A265E57520009FD17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABDBD5A1265E57520009FD17;
+			remoteInfo = FenbiLiveSdkDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABDBD5A2265E57520009FD17 /* FenbiLiveSdkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FenbiLiveSdkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABDBD5A5265E57520009FD17 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ABDBD5A6265E57520009FD17 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ABDBD5A8265E57520009FD17 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		ABDBD5A9265E57520009FD17 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		ABDBD5AB265E57520009FD17 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ABDBD5AC265E57520009FD17 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ABDBD5AF265E57520009FD17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABDBD5B1265E57540009FD17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABDBD5B4265E57540009FD17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ABDBD5B6265E57540009FD17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABDBD5B7265E57540009FD17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABDBD5BD265E57540009FD17 /* FenbiLiveSdkDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FenbiLiveSdkDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABDBD5C1265E57540009FD17 /* FenbiLiveSdkDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FenbiLiveSdkDemoTests.m; sourceTree = "<group>"; };
+		ABDBD5C3265E57540009FD17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABDBD5C8265E57540009FD17 /* FenbiLiveSdkDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FenbiLiveSdkDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABDBD5CC265E57540009FD17 /* FenbiLiveSdkDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FenbiLiveSdkDemoUITests.m; sourceTree = "<group>"; };
+		ABDBD5CE265E57540009FD17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABDBD59F265E57520009FD17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABDBD5BA265E57540009FD17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABDBD5C5265E57540009FD17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABDBD599265E57520009FD17 = {
+			isa = PBXGroup;
+			children = (
+				ABDBD5A4265E57520009FD17 /* FenbiLiveSdkDemo */,
+				ABDBD5C0265E57540009FD17 /* FenbiLiveSdkDemoTests */,
+				ABDBD5CB265E57540009FD17 /* FenbiLiveSdkDemoUITests */,
+				ABDBD5A3265E57520009FD17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABDBD5A3265E57520009FD17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABDBD5A2265E57520009FD17 /* FenbiLiveSdkDemo.app */,
+				ABDBD5BD265E57540009FD17 /* FenbiLiveSdkDemoTests.xctest */,
+				ABDBD5C8265E57540009FD17 /* FenbiLiveSdkDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABDBD5A4265E57520009FD17 /* FenbiLiveSdkDemo */ = {
+			isa = PBXGroup;
+			children = (
+				ABDBD5A5265E57520009FD17 /* AppDelegate.h */,
+				ABDBD5A6265E57520009FD17 /* AppDelegate.m */,
+				ABDBD5A8265E57520009FD17 /* SceneDelegate.h */,
+				ABDBD5A9265E57520009FD17 /* SceneDelegate.m */,
+				ABDBD5AB265E57520009FD17 /* ViewController.h */,
+				ABDBD5AC265E57520009FD17 /* ViewController.m */,
+				ABDBD5AE265E57520009FD17 /* Main.storyboard */,
+				ABDBD5B1265E57540009FD17 /* Assets.xcassets */,
+				ABDBD5B3265E57540009FD17 /* LaunchScreen.storyboard */,
+				ABDBD5B6265E57540009FD17 /* Info.plist */,
+				ABDBD5B7265E57540009FD17 /* main.m */,
+			);
+			path = FenbiLiveSdkDemo;
+			sourceTree = "<group>";
+		};
+		ABDBD5C0265E57540009FD17 /* FenbiLiveSdkDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABDBD5C1265E57540009FD17 /* FenbiLiveSdkDemoTests.m */,
+				ABDBD5C3265E57540009FD17 /* Info.plist */,
+			);
+			path = FenbiLiveSdkDemoTests;
+			sourceTree = "<group>";
+		};
+		ABDBD5CB265E57540009FD17 /* FenbiLiveSdkDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ABDBD5CC265E57540009FD17 /* FenbiLiveSdkDemoUITests.m */,
+				ABDBD5CE265E57540009FD17 /* Info.plist */,
+			);
+			path = FenbiLiveSdkDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABDBD5A1265E57520009FD17 /* FenbiLiveSdkDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABDBD5D1265E57540009FD17 /* Build configuration list for PBXNativeTarget "FenbiLiveSdkDemo" */;
+			buildPhases = (
+				ABDBD59E265E57520009FD17 /* Sources */,
+				ABDBD59F265E57520009FD17 /* Frameworks */,
+				ABDBD5A0265E57520009FD17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FenbiLiveSdkDemo;
+			productName = FenbiLiveSdkDemo;
+			productReference = ABDBD5A2265E57520009FD17 /* FenbiLiveSdkDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABDBD5BC265E57540009FD17 /* FenbiLiveSdkDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABDBD5D4265E57540009FD17 /* Build configuration list for PBXNativeTarget "FenbiLiveSdkDemoTests" */;
+			buildPhases = (
+				ABDBD5B9265E57540009FD17 /* Sources */,
+				ABDBD5BA265E57540009FD17 /* Frameworks */,
+				ABDBD5BB265E57540009FD17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABDBD5BF265E57540009FD17 /* PBXTargetDependency */,
+			);
+			name = FenbiLiveSdkDemoTests;
+			productName = FenbiLiveSdkDemoTests;
+			productReference = ABDBD5BD265E57540009FD17 /* FenbiLiveSdkDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ABDBD5C7265E57540009FD17 /* FenbiLiveSdkDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABDBD5D7265E57540009FD17 /* Build configuration list for PBXNativeTarget "FenbiLiveSdkDemoUITests" */;
+			buildPhases = (
+				ABDBD5C4265E57540009FD17 /* Sources */,
+				ABDBD5C5265E57540009FD17 /* Frameworks */,
+				ABDBD5C6265E57540009FD17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABDBD5CA265E57540009FD17 /* PBXTargetDependency */,
+			);
+			name = FenbiLiveSdkDemoUITests;
+			productName = FenbiLiveSdkDemoUITests;
+			productReference = ABDBD5C8265E57540009FD17 /* FenbiLiveSdkDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABDBD59A265E57520009FD17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					ABDBD5A1265E57520009FD17 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					ABDBD5BC265E57540009FD17 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = ABDBD5A1265E57520009FD17;
+					};
+					ABDBD5C7265E57540009FD17 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = ABDBD5A1265E57520009FD17;
+					};
+				};
+			};
+			buildConfigurationList = ABDBD59D265E57520009FD17 /* Build configuration list for PBXProject "FenbiLiveSdkDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABDBD599265E57520009FD17;
+			productRefGroup = ABDBD5A3265E57520009FD17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABDBD5A1265E57520009FD17 /* FenbiLiveSdkDemo */,
+				ABDBD5BC265E57540009FD17 /* FenbiLiveSdkDemoTests */,
+				ABDBD5C7265E57540009FD17 /* FenbiLiveSdkDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABDBD5A0265E57520009FD17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABDBD5B5265E57540009FD17 /* LaunchScreen.storyboard in Resources */,
+				ABDBD5B2265E57540009FD17 /* Assets.xcassets in Resources */,
+				ABDBD5B0265E57520009FD17 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABDBD5BB265E57540009FD17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABDBD5C6265E57540009FD17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABDBD59E265E57520009FD17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABDBD5AD265E57520009FD17 /* ViewController.m in Sources */,
+				ABDBD5A7265E57520009FD17 /* AppDelegate.m in Sources */,
+				ABDBD5B8265E57540009FD17 /* main.m in Sources */,
+				ABDBD5AA265E57520009FD17 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABDBD5B9265E57540009FD17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABDBD5C2265E57540009FD17 /* FenbiLiveSdkDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABDBD5C4265E57540009FD17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABDBD5CD265E57540009FD17 /* FenbiLiveSdkDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABDBD5BF265E57540009FD17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABDBD5A1265E57520009FD17 /* FenbiLiveSdkDemo */;
+			targetProxy = ABDBD5BE265E57540009FD17 /* PBXContainerItemProxy */;
+		};
+		ABDBD5CA265E57540009FD17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABDBD5A1265E57520009FD17 /* FenbiLiveSdkDemo */;
+			targetProxy = ABDBD5C9265E57540009FD17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABDBD5AE265E57520009FD17 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABDBD5AF265E57520009FD17 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABDBD5B3265E57540009FD17 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABDBD5B4265E57540009FD17 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABDBD5CF265E57540009FD17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ABDBD5D0265E57540009FD17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABDBD5D2265E57540009FD17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FenbiLiveSdkDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fenbi.FenbiLiveSdkDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABDBD5D3265E57540009FD17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FenbiLiveSdkDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fenbi.FenbiLiveSdkDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ABDBD5D5265E57540009FD17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FenbiLiveSdkDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fenbi.FenbiLiveSdkDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FenbiLiveSdkDemo.app/FenbiLiveSdkDemo";
+			};
+			name = Debug;
+		};
+		ABDBD5D6265E57540009FD17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FenbiLiveSdkDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fenbi.FenbiLiveSdkDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FenbiLiveSdkDemo.app/FenbiLiveSdkDemo";
+			};
+			name = Release;
+		};
+		ABDBD5D8265E57540009FD17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FenbiLiveSdkDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fenbi.FenbiLiveSdkDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FenbiLiveSdkDemo;
+			};
+			name = Debug;
+		};
+		ABDBD5D9265E57540009FD17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FenbiLiveSdkDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fenbi.FenbiLiveSdkDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FenbiLiveSdkDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABDBD59D265E57520009FD17 /* Build configuration list for PBXProject "FenbiLiveSdkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABDBD5CF265E57540009FD17 /* Debug */,
+				ABDBD5D0265E57540009FD17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABDBD5D1265E57540009FD17 /* Build configuration list for PBXNativeTarget "FenbiLiveSdkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABDBD5D2265E57540009FD17 /* Debug */,
+				ABDBD5D3265E57540009FD17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABDBD5D4265E57540009FD17 /* Build configuration list for PBXNativeTarget "FenbiLiveSdkDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABDBD5D5265E57540009FD17 /* Debug */,
+				ABDBD5D6265E57540009FD17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABDBD5D7265E57540009FD17 /* Build configuration list for PBXNativeTarget "FenbiLiveSdkDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABDBD5D8265E57540009FD17 /* Debug */,
+				ABDBD5D9265E57540009FD17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABDBD59A265E57520009FD17 /* Project object */;
+}
