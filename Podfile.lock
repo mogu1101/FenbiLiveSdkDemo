@@ -1,0 +1,215 @@
+PODS:
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - CocoaAsyncSocket (7.6.5)
+  - FBStore (1.0.10):
+    - FMDB (~> 2.7.2)
+    - YTKUtils (~> 1.3)
+  - FenbiLiveSdk (4.40.0.0):
+    - CocoaAsyncSocket (~> 7.6.3)
+    - FBStore (~> 1.0.7)
+    - libextobjc (~> 0.4)
+    - Mantle (~> 1.0)
+    - Protobuf (~> 3.12.0)
+    - ProtocolBuffers (~> 1.0)
+    - YFDCommonLog (~> 2.5.4)
+    - YTKNetwork (~> 3.0)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - GTM/Common (1.0.0)
+  - GTM/zlib (1.0.0):
+    - GTM/Common
+  - libextobjc (0.6):
+    - libextobjc/EXTADT (= 0.6)
+    - libextobjc/EXTConcreteProtocol (= 0.6)
+    - libextobjc/EXTKeyPathCoding (= 0.6)
+    - libextobjc/EXTNil (= 0.6)
+    - libextobjc/EXTSafeCategory (= 0.6)
+    - libextobjc/EXTScope (= 0.6)
+    - libextobjc/EXTSelectorChecking (= 0.6)
+    - libextobjc/EXTSynthesize (= 0.6)
+    - "libextobjc/NSInvocation+EXT (= 0.6)"
+    - "libextobjc/NSMethodSignature+EXT (= 0.6)"
+    - libextobjc/RuntimeExtensions (= 0.6)
+    - libextobjc/UmbrellaHeader (= 0.6)
+  - libextobjc/EXTADT (0.6):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTConcreteProtocol (0.6):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTKeyPathCoding (0.6):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTNil (0.6):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSafeCategory (0.6):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTScope (0.6):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSelectorChecking (0.6):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSynthesize (0.6):
+    - libextobjc/RuntimeExtensions
+  - "libextobjc/NSInvocation+EXT (0.6)":
+    - libextobjc/RuntimeExtensions
+  - "libextobjc/NSMethodSignature+EXT (0.6)":
+    - libextobjc/RuntimeExtensions
+  - libextobjc/RuntimeExtensions (0.6)
+  - libextobjc/UmbrellaHeader (0.6)
+  - Mantle (1.5.8):
+    - Mantle/extobjc (= 1.5.8)
+  - Mantle/extobjc (1.5.8)
+  - MBProgressHUD (0.9.2)
+  - Protobuf (3.12.0)
+  - ProtocolBuffers (1.9.11)
+  - YFDCommonLog (2.5.4):
+    - FMDB (~> 2.7.2)
+    - GTM/zlib (~> 1.0)
+    - Mantle (~> 1.0)
+    - Protobuf (~> 3.8)
+    - YFDCommonLog/arc (= 2.5.4)
+    - YFDCommonLog/nonarc (= 2.5.4)
+    - YFDMMap
+    - YFDSharedDataCenter (~> 1.2.0)
+    - YTKNetwork (~> 3.0)
+  - YFDCommonLog/arc (2.5.4):
+    - FMDB (~> 2.7.2)
+    - GTM/zlib (~> 1.0)
+    - Mantle (~> 1.0)
+    - Protobuf (~> 3.8)
+    - YFDCommonLog/nonarc
+    - YFDMMap
+    - YFDSharedDataCenter (~> 1.2.0)
+    - YTKNetwork (~> 3.0)
+  - YFDCommonLog/nonarc (2.5.4):
+    - FMDB (~> 2.7.2)
+    - GTM/zlib (~> 1.0)
+    - Mantle (~> 1.0)
+    - Protobuf (~> 3.8)
+    - YFDMMap
+    - YFDSharedDataCenter (~> 1.2.0)
+    - YTKNetwork (~> 3.0)
+  - YFDMMap (0.0.2)
+  - YFDSharedDataCenter (1.2.3)
+  - YTKNetwork (3.0.6):
+    - AFNetworking/NSURLSession (~> 4.0)
+  - YTKUtils (1.3.9.1):
+    - AFNetworking/Reachability (~> 4.0)
+    - MBProgressHUD (~> 0.9.2)
+    - YTKUtils/Collections (= 1.3.9.1)
+    - YTKUtils/Macros (= 1.3.9.1)
+    - YTKUtils/NonARC (= 1.3.9.1)
+    - YTKUtils/NSData (= 1.3.9.1)
+    - YTKUtils/NSDate (= 1.3.9.1)
+    - YTKUtils/NSNull (= 1.3.9.1)
+    - YTKUtils/NSNumber (= 1.3.9.1)
+    - YTKUtils/NSObject (= 1.3.9.1)
+    - YTKUtils/NSString (= 1.3.9.1)
+    - YTKUtils/UIButton (= 1.3.9.1)
+    - YTKUtils/UIDevice (= 1.3.9.1)
+    - YTKUtils/UIGestureRecognizer (= 1.3.9.1)
+    - YTKUtils/UITableViewCell (= 1.3.9.1)
+    - YTKUtils/UIView (= 1.3.9.1)
+    - YTKUtils/Utils (= 1.3.9.1)
+  - YTKUtils/Collections (1.3.9.1):
+    - AFNetworking/Reachability (~> 4.0)
+    - MBProgressHUD (~> 0.9.2)
+    - YTKUtils/Macros
+  - YTKUtils/Macros (1.3.9.1):
+    - AFNetworking/Reachability (~> 4.0)
+    - MBProgressHUD (~> 0.9.2)
+  - YTKUtils/NonARC (1.3.9.1):
+    - AFNetworking/Reachability (~> 4.0)
+    - MBProgressHUD (~> 0.9.2)
+  - YTKUtils/NSData (1.3.9.1):
+    - AFNetworking/Reachability (~> 4.0)
+    - MBProgressHUD (~> 0.9.2)
+    - YTKUtils/NonARC
+  - YTKUtils/NSDate (1.3.9.1):
+    - AFNetworking/Reachability (~> 4.0)
+    - MBProgressHUD (~> 0.9.2)
+  - YTKUtils/NSNull (1.3.9.1):
+    - AFNetworking/Reachability (~> 4.0)
+    - MBProgressHUD (~> 0.9.2)
+  - YTKUtils/NSNumber (1.3.9.1):
+    - AFNetworking/Reachability (~> 4.0)
+    - MBProgressHUD (~> 0.9.2)
+  - YTKUtils/NSObject (1.3.9.1):
+    - AFNetworking/Reachability (~> 4.0)
+    - MBProgressHUD (~> 0.9.2)
+  - YTKUtils/NSString (1.3.9.1):
+    - AFNetworking/Reachability (~> 4.0)
+    - MBProgressHUD (~> 0.9.2)
+    - YTKUtils/Macros
+  - YTKUtils/UIButton (1.3.9.1):
+    - AFNetworking/Reachability (~> 4.0)
+    - MBProgressHUD (~> 0.9.2)
+  - YTKUtils/UIDevice (1.3.9.1):
+    - AFNetworking/Reachability (~> 4.0)
+    - MBProgressHUD (~> 0.9.2)
+    - YTKUtils/NSString
+  - YTKUtils/UIGestureRecognizer (1.3.9.1):
+    - AFNetworking/Reachability (~> 4.0)
+    - MBProgressHUD (~> 0.9.2)
+  - YTKUtils/UITableViewCell (1.3.9.1):
+    - AFNetworking/Reachability (~> 4.0)
+    - MBProgressHUD (~> 0.9.2)
+  - YTKUtils/UIView (1.3.9.1):
+    - AFNetworking/Reachability (~> 4.0)
+    - MBProgressHUD (~> 0.9.2)
+  - YTKUtils/Utils (1.3.9.1):
+    - AFNetworking/Reachability (~> 4.0)
+    - MBProgressHUD (~> 0.9.2)
+    - YTKUtils/Collections
+    - YTKUtils/Macros
+    - YTKUtils/NSData
+    - YTKUtils/NSString
+
+DEPENDENCIES:
+  - FenbiLiveSdk
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - CocoaAsyncSocket
+    - FMDB
+    - libextobjc
+    - Mantle
+    - MBProgressHUD
+    - Protobuf
+    - ProtocolBuffers
+    - YTKNetwork
+  ssh://gerrit.zhenguanyu.com:29418/ios-specs:
+    - FBStore
+    - FenbiLiveSdk
+    - GTM
+    - YFDCommonLog
+    - YFDMMap
+    - YFDSharedDataCenter
+    - YTKUtils
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
+  FBStore: e0ae2fcfada7d5c697a2bdf10d8e1e0063da6cb1
+  FenbiLiveSdk: b4f9b35adc14a087944e199cf75aeaa01449d88c
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  GTM: a9b772d0846423ab6c301b90cb61d6c8f44772f1
+  libextobjc: aed8b7d2b07f511c1a7ecaacb33ea03e327c69b7
+  Mantle: f03b2b606c3f0cabd80214ad8a2fed6b464a7359
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  Protobuf: 2793fcd0622a00b546c60e7cbbcc493e043e9bb9
+  ProtocolBuffers: d509225eb2ea43d9582a59e94348fcf86e2abd65
+  YFDCommonLog: d8a23cb52e0c74bb0c8c9c1d7ca60da52b280098
+  YFDMMap: 53039a21a740ee6e5cebbc34e960f3bc70ea0d0a
+  YFDSharedDataCenter: a43416ce552718b4a4266020e9ab7b958b8430fa
+  YTKNetwork: c16be90b06be003de9e9cd0d3b187cc8eaf35c04
+  YTKUtils: ed8e45e2554a0f44a5803104c2e9a3e7b85567c8
+
+PODFILE CHECKSUM: a7dd5afdd4261692b5a67552ad1a69745c177a79
+
+COCOAPODS: 1.10.1

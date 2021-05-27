@@ -3,19 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ABD9A96F5A393CDDCB8F873F /* Pods_FenbiLiveSdkDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39B694A0E281626ED878EB5D /* Pods_FenbiLiveSdkDemo.framework */; };
 		ABDBD5A7265E57520009FD17 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDBD5A6265E57520009FD17 /* AppDelegate.m */; };
-		ABDBD5AA265E57520009FD17 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDBD5A9265E57520009FD17 /* SceneDelegate.m */; };
 		ABDBD5AD265E57520009FD17 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDBD5AC265E57520009FD17 /* ViewController.m */; };
-		ABDBD5B0265E57520009FD17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABDBD5AE265E57520009FD17 /* Main.storyboard */; };
 		ABDBD5B2265E57540009FD17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABDBD5B1265E57540009FD17 /* Assets.xcassets */; };
 		ABDBD5B5265E57540009FD17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABDBD5B3265E57540009FD17 /* LaunchScreen.storyboard */; };
 		ABDBD5B8265E57540009FD17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDBD5B7265E57540009FD17 /* main.m */; };
 		ABDBD5C2265E57540009FD17 /* FenbiLiveSdkDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDBD5C1265E57540009FD17 /* FenbiLiveSdkDemoTests.m */; };
 		ABDBD5CD265E57540009FD17 /* FenbiLiveSdkDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDBD5CC265E57540009FD17 /* FenbiLiveSdkDemoUITests.m */; };
+		ABDBD633265E69170009FD17 /* SdkBridge.mm in Sources */ = {isa = PBXBuildFile; fileRef = ABDBD632265E69170009FD17 /* SdkBridge.mm */; };
+		ABDBD67D265F88210009FD17 /* MediaPlayerViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = ABDBD67C265F88210009FD17 /* MediaPlayerViewController.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12C13B748404E74C6DD8D707 /* Pods-FenbiLiveSdkDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FenbiLiveSdkDemo.debug.xcconfig"; path = "Target Support Files/Pods-FenbiLiveSdkDemo/Pods-FenbiLiveSdkDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		39B694A0E281626ED878EB5D /* Pods_FenbiLiveSdkDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FenbiLiveSdkDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABDBD5A2265E57520009FD17 /* FenbiLiveSdkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FenbiLiveSdkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABDBD5A5265E57520009FD17 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ABDBD5A6265E57520009FD17 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		ABDBD5A8265E57520009FD17 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		ABDBD5A9265E57520009FD17 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		ABDBD5AB265E57520009FD17 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		ABDBD5AC265E57520009FD17 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		ABDBD5AF265E57520009FD17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ABDBD5B1265E57540009FD17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABDBD5B4265E57540009FD17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABDBD5B6265E57540009FD17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +54,11 @@
 		ABDBD5C8265E57540009FD17 /* FenbiLiveSdkDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FenbiLiveSdkDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABDBD5CC265E57540009FD17 /* FenbiLiveSdkDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FenbiLiveSdkDemoUITests.m; sourceTree = "<group>"; };
 		ABDBD5CE265E57540009FD17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABDBD631265E69170009FD17 /* SdkBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SdkBridge.h; sourceTree = "<group>"; };
+		ABDBD632265E69170009FD17 /* SdkBridge.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SdkBridge.mm; sourceTree = "<group>"; };
+		ABDBD67B265F88210009FD17 /* MediaPlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MediaPlayerViewController.h; sourceTree = "<group>"; };
+		ABDBD67C265F88210009FD17 /* MediaPlayerViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = MediaPlayerViewController.mm; sourceTree = "<group>"; };
+		C8266B986E18DC3191ABEC51 /* Pods-FenbiLiveSdkDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FenbiLiveSdkDemo.release.xcconfig"; path = "Target Support Files/Pods-FenbiLiveSdkDemo/Pods-FenbiLiveSdkDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABD9A96F5A393CDDCB8F873F /* Pods_FenbiLiveSdkDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +87,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1EE7A78292A3707A72B7C7AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39B694A0E281626ED878EB5D /* Pods_FenbiLiveSdkDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ABDBD599265E57520009FD17 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +102,8 @@
 				ABDBD5C0265E57540009FD17 /* FenbiLiveSdkDemoTests */,
 				ABDBD5CB265E57540009FD17 /* FenbiLiveSdkDemoUITests */,
 				ABDBD5A3265E57520009FD17 /* Products */,
+				C36B1F30D05CA8AC14937CD6 /* Pods */,
+				1EE7A78292A3707A72B7C7AE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,17 +120,18 @@
 		ABDBD5A4265E57520009FD17 /* FenbiLiveSdkDemo */ = {
 			isa = PBXGroup;
 			children = (
+				ABDBD631265E69170009FD17 /* SdkBridge.h */,
+				ABDBD632265E69170009FD17 /* SdkBridge.mm */,
 				ABDBD5A5265E57520009FD17 /* AppDelegate.h */,
 				ABDBD5A6265E57520009FD17 /* AppDelegate.m */,
-				ABDBD5A8265E57520009FD17 /* SceneDelegate.h */,
-				ABDBD5A9265E57520009FD17 /* SceneDelegate.m */,
 				ABDBD5AB265E57520009FD17 /* ViewController.h */,
 				ABDBD5AC265E57520009FD17 /* ViewController.m */,
-				ABDBD5AE265E57520009FD17 /* Main.storyboard */,
 				ABDBD5B1265E57540009FD17 /* Assets.xcassets */,
 				ABDBD5B3265E57540009FD17 /* LaunchScreen.storyboard */,
 				ABDBD5B6265E57540009FD17 /* Info.plist */,
 				ABDBD5B7265E57540009FD17 /* main.m */,
+				ABDBD67B265F88210009FD17 /* MediaPlayerViewController.h */,
+				ABDBD67C265F88210009FD17 /* MediaPlayerViewController.mm */,
 			);
 			path = FenbiLiveSdkDemo;
 			sourceTree = "<group>";
@@ -137,6 +154,15 @@
 			path = FenbiLiveSdkDemoUITests;
 			sourceTree = "<group>";
 		};
+		C36B1F30D05CA8AC14937CD6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				12C13B748404E74C6DD8D707 /* Pods-FenbiLiveSdkDemo.debug.xcconfig */,
+				C8266B986E18DC3191ABEC51 /* Pods-FenbiLiveSdkDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +170,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ABDBD5D1265E57540009FD17 /* Build configuration list for PBXNativeTarget "FenbiLiveSdkDemo" */;
 			buildPhases = (
+				FD16FCF19F70E26F7E6C1A82 /* [CP] Check Pods Manifest.lock */,
 				ABDBD59E265E57520009FD17 /* Sources */,
 				ABDBD59F265E57520009FD17 /* Frameworks */,
 				ABDBD5A0265E57520009FD17 /* Resources */,
+				B5AC2C73C232CEDCC31C3D42 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -241,7 +269,6 @@
 			files = (
 				ABDBD5B5265E57540009FD17 /* LaunchScreen.storyboard in Resources */,
 				ABDBD5B2265E57540009FD17 /* Assets.xcassets in Resources */,
-				ABDBD5B0265E57520009FD17 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +288,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B5AC2C73C232CEDCC31C3D42 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FenbiLiveSdkDemo/Pods-FenbiLiveSdkDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FenbiLiveSdkDemo/Pods-FenbiLiveSdkDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FenbiLiveSdkDemo/Pods-FenbiLiveSdkDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD16FCF19F70E26F7E6C1A82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FenbiLiveSdkDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ABDBD59E265E57520009FD17 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -269,7 +338,8 @@
 				ABDBD5AD265E57520009FD17 /* ViewController.m in Sources */,
 				ABDBD5A7265E57520009FD17 /* AppDelegate.m in Sources */,
 				ABDBD5B8265E57540009FD17 /* main.m in Sources */,
-				ABDBD5AA265E57520009FD17 /* SceneDelegate.m in Sources */,
+				ABDBD67D265F88210009FD17 /* MediaPlayerViewController.mm in Sources */,
+				ABDBD633265E69170009FD17 /* SdkBridge.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,14 +375,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		ABDBD5AE265E57520009FD17 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ABDBD5AF265E57520009FD17 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		ABDBD5B3265E57540009FD17 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -375,7 +437,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -428,7 +490,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -438,34 +500,44 @@
 		};
 		ABDBD5D2265E57540009FD17 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12C13B748404E74C6DD8D707 /* Pods-FenbiLiveSdkDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 26FBUEXXH7;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = FenbiLiveSdkDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fenbi.FenbiLiveSdkDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fenbi.sci.in;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Sci InHouse Development";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		ABDBD5D3265E57540009FD17 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8266B986E18DC3191ABEC51 /* Pods-FenbiLiveSdkDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 26FBUEXXH7;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = FenbiLiveSdkDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fenbi.FenbiLiveSdkDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fenbi.sci.in;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Sci InHouse Development";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
